@@ -21,13 +21,3 @@ class Main {
     }
   }
 }
-
-#Algumas considerações sobre o código-fonte apresentado: 
-
-O método bubbleSort apresentado entre as linhas 11 e 18 foi criado para auxiliar no processo de troca dos valores de posição dentro do vetor apenas para facilitar e deixar o código mais legível. 
-
-No método bubble sort, foram necessários dois laços de repetição do tipo for. O primeiro, com a variável de controle i, representa a passagem pelo vetor. O for com a variável de controle j representa as iterações.
-
-Na linha 20, foi inserida uma saída do programa para verificar o resultado de cada passagem do algoritmo.
-
-Outro ponto importante sobre essa implementação é que, mesmo que o vetor esteja completamente ordenado, as passagens são executadas até o final. Realizar essas passagens com o vetor já ordenado apenas deixa o algoritmo mais ineficiente. 
